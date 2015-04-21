@@ -1,0 +1,97 @@
+/*Name: Qin Liao
+ * Period 7
+ * Reflection:this lab was very easy as well. The only thing i had minor trouble
+ * with wa getting a null pointer exception. I realized the List was an interface
+ * and not a class, and thus cannot be initaited. I had to use ArrayList.
+ * This ended up working and it worked
+ */
+
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Deck {
+
+	private List<Card> cards;
+
+	private int size;
+
+	public Deck(String[] ranks, String[] suits, int[] values) {
+		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+		cards = new ArrayList<Card>();
+		
+		size = ranks.length;
+		for (int i = 0; i < size; i++) {
+			Card tempCard = new Card(ranks[i], suits[i], values[i]);			
+			
+			cards.add(tempCard);			
+		}
+		
+	}
+
+	public boolean isEmpty() {
+		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+		if(size == 0){
+			return true;
+		}
+		else return false;
+	}
+
+	/**
+	 * Accesses the number of undealt cards in this deck.
+	 * @return the number of undealt cards in this deck.
+	 */
+	public int size() {
+		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+		return size;
+	}
+
+	public void shuffle() {
+		/* *** TO BE IMPLEMENTED IN ACTIVITY 4 *** */
+	}
+
+	public Card deal() {
+		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */		
+		size = size - 1;
+		
+		
+		if(size >= 0){
+			return cards.get(size);			
+		}
+		else {
+			return null;
+		}
+		
+	}
+
+	@Override
+	public String toString() {
+		String rtn = "size = " + size + "\nUndealt cards: \n";
+
+		for (int k = size - 1; k >= 0; k--) {
+			rtn = rtn + cards.get(k);
+			if (k != 0) {
+				rtn = rtn + ", ";
+			}
+			if ((size - k) % 2 == 0) {
+				// Insert carriage returns so entire deck is visible on console.
+				rtn = rtn + "\n";
+			}
+		}
+
+		rtn = rtn + "\nDealt cards: \n";
+		for (int k = cards.size() - 1; k >= size; k--) {
+			rtn = rtn + cards.get(k);
+			if (k != size) {
+				rtn = rtn + ", ";
+			}
+			if ((k - cards.size()) % 2 == 0) {
+				// Insert carriage returns so entire deck is visible on console.
+				rtn = rtn + "\n";
+			}
+		}
+
+		rtn = rtn + "\n";
+		return rtn;
+	}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<jnlp spec="1.0+" codebase="file:/Users/MikeLIao/Desktop/webMinesweeper" href="minesweeper.jnlp">
+		<information>
+			<title>Minesweeper Program</title>
+			<vendor>Mike </vendor>
+			<homepage href="http://www.MrFerrante.com/" />
+			<description>Coolest Minesweeper Program Ever</description>
+		</information>
+		<security>
+			<all-permissions/>
+		</security>
+		<resources>
+			<j2se version="1.8+" />
+			<jar href="MyJar.jar" />
+		</resources>
+		<application-desc main-class="MineSweeperDriver" />
+	</jnlp>

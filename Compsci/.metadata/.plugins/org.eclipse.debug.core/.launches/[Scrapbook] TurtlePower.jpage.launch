@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Lab18"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+<stringAttribute key="org.eclipse.jdt.debug.ui.scrapbook_file_path" value="/Lab18/src/TurtlePower.jpage"/>
+<stringAttribute key="org.eclipse.jdt.debug.ui.scrapbook_launch" value="org.eclipse.jdt.debug.ui.scrapbook_launch"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;/Users/MikeLIao/Downloads/eclipse/configuration/org.eclipse.osgi/198/0/.cp/snippetsupport.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6&quot; javaProject=&quot;Lab18&quot; path=&quot;1&quot; type=&quot;4&quot;/&gt;&#10;"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.jdt.internal.debug.ui.snippeteditor.ScrapbookMain"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value=" file:/Users/MikeLIao/Desktop/Second+semester+/.metadata/.plugins/org.eclipse.core.resources/.projects/Lab18/org.eclipse.jdt.debug.ui/ file:/Users/MikeLIao/Desktop/Second+semester+/Lab18/bin/ file:/Users/MikeLIao/Downloads/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar file:/Users/MikeLIao/Downloads/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Lab18"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.jdt.debug.ui.scrapbookSourcepathProvider"/>
+</launchConfiguration>
