@@ -1,0 +1,25 @@
+1. D . Tail recursion is putting off the work until the very end
+2. D. sum(n)+ sum(n-1) does not equal to summ.
+3. E this won't end
+4. D This will work
+5. B.  Basically 2 * 2 * 2 * 2 *2
+6. B this is the previosu questions logic
+7. B This method returns 2 * n and one k
+8. D The method returns 2, its a lil bit smaller than it seems
+9. A What...this is confusing. So t is equal to the previous call
+of recur(x, n-1). So if (x[n-1]) > t . Okay so at the very end of the call
+it will return x[0] or t. Basically it compares wether t is bigger or x[n] is 
+bigger. Eventually when recursion is finished it finds the largest value.
+10.B I think it prints this in reverse order. 
+11.A  Definately A. This is when the exponent is negative
+12.C Just regular old recursion
+13.C Only 3. the other ones have if statements that exclude some number
+14.A  Outputs 12
+15.E Outputs - 4
+16.D It makes 15 calls
+17.E It returns 15
+18.C  wat...
+19.B It is out of range 
+20.B 
+21.B
+

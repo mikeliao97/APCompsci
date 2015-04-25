@@ -1,0 +1,67 @@
+1. E 
+(Check with others for specification because you don't always know what
+people want)
+2. C
+Answers A and B should probably be methods
+
+3. E
+Top down programming means implementing details later 
+
+4. E
+Everything should be factored in when writing applicaton
+
+5. B
+Sorted everyting makes it weird for inserting and deleting numbers because
+every number has an EXACT place
+
+6. B
+A Robust program might not be good at testing edge cases
+
+7. B
+Choice B covers every possible scenario
+
+8. A
+Lgic error because you need another parenthesis 
+
+9. D 
+This is a run time error because dividing by 0 is not a syntax error
+
+10. A
+Preconditioni is what must be true
+
+11. A
+
+12. D
+N has to be bigger than 1 because it is the sum of 1.. to N. Also k = 1 and sum = 1 is mandtory
+for this operation to work
+
+13. C
+
+14. D
+this is simply adding a , b number of times
+
+15. B
+Invoice should be in charge of handling amount due
+
+16. C
+Just because C1 is a C2, it dos not mean that C1 has a C2. Just because a kitten is a cat doesnt mean a
+cat has a kitten
+
+17. B
+okay this is just silly. why would a tire extend a circle...
+
+18. A
+first implement super classes, the most basic of clases
+
+19.Program, Integer, boundary, simulation
+E (4)
+
+20.A
+a gridpoint does not know when it has a car on it
+
+21. E
+a bumpercar does not modify the grid using update()
+
+1
+
+
