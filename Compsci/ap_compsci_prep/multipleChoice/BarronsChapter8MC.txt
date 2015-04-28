@@ -1,0 +1,42 @@
+1. E It should take into consideration all these factors
+2. D This is a simple loop to find if value = a[i]
+3 C To use binary search you gotta binary sort which involves 
+psuedo sorting it by getting the midpoint. Sequential sort
+doesn't inovlve any of that
+4 B B only because adding a new element and doing the mean of the elements
+doesn't offer any real benefits for the sorteda rray
+5 E No clue but that sort of sortin godesn't sound efficeint
+at all
+6 E So the first a[0] is bigger than any a[k]. 
+7 C  So if there is no key this is an infinite loop
+8 B This is pretty simple selection sortj
+9 A So this method just searches. The phrases index < v.length
+indicates that this has to be sorted smallest to largest.
+10 C C this searches through a[4] and a[7] 
+11 B B three iterations because 4 possibilities
+12 D D this is literally the easiest question i've ever seen
+13 E It won't look at the last value
+14 A There is only two possibilitie
+15 A Math.pow(2, 15) is equal to 32768
+16 B 
+17 B 
+18 B
+19 B Okay a[j] > 0 means that temp should be bigger than a[j] 
+so as long as temp is bigger than a[j] it should work fine. 
+20 A Insertion sort in general requires less compariosn
+21 E What this is some sort of selection sort and but not really
+22 C Mergeesort is faster. I don't know what storage space means
+23 D A you gotta find the p first
+24 C Gotta be in ordera
+25 E Not binary, not insertion, not selection, only sequentional
+26 D  Swap cuz you gotta swap up and down
+27 D To merge some two lists
+28 B 2 ** 10 = 1024
+29 B Reverse order would be terrible for insertion
+30 B 2 ** 20 literally love these quesions ez points
+31 B No clue
+32 D 
+33 C
+34 D Math.pow(2, 7) is over 100 
+35 A Sequential search takes 100 times
+36 C 100/2 = 50. Which is the average number
